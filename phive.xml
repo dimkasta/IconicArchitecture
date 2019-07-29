@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phive xmlns="https://phar.io/phive">
+  <configuration>
+    <targetDirectory>.</targetDirectory>
+  </configuration>
   <phar name="phpunit" version="^8.2.5" installed="8.2.5" location="phpunit" copy="false"/>
 </phive>
