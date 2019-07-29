@@ -1,5 +1,6 @@
 {
     "name": "iconic/architecture",
+    "minimum-stability": "stable",
     "description": "Contract library for Iconic solutions",
     "type": "library",
     "license": "MIT",
