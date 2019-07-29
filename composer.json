@@ -1,0 +1,22 @@
+{
+    "name": "iconic/architecture",
+    "description": "Contract library for Iconic solutions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitris",
+            "email": "dimkasta@yahoo.gr"
+        }
+    ],
+    "require": {
+        "php": "7.2.*",
+        "symfony/contracts": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"Iconic\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Iconic\\Tests\\": "tests/"}
+    }
+}
